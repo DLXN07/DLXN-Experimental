@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 251, 177);
+    text-align: center;
+}
+.Container {
+    display: inline-block;
+    background-color: rgb(247, 219, 145);
+    border: 5px solid rgb(165, 200, 158);
+    padding: 2rem;
+    top: 50%;
+}
+h1,
+p {
+    color: rgb(174, 184, 119);
+    font-weight: bold;
+}
+h1,
+p,
+a,
+button {
+    font-family: Arial;
+}
+a,
+button {
+    display: inline-block;
+    background-color: rgb(255, 251, 177);
+    border: 4px solid rgb(165, 200, 158);
+    border-radius: 2px;
+    color: rgb(174, 184, 119);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+}
+/* Functions */
+button:hover {
+    opacity: 0.8;
+}
+.JGButton:hover {
+    transform: translateX(-400px);
+}
+.JGButton:active {
+    transform: translateX(400px);
+}
